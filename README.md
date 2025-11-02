@@ -1,107 +1,112 @@
-# CV Generator
+# 🧾 CV Generator
 
-A full-stack web application to create professional CVs quickly and easily. Built with Django, HTML, and CSS.
+A web application built with **Django**, **HTML**, **CSS**, and **Bootstrap** that allows users to quickly create and download a professional CV in **PDF format** using **pdfkit**.
 
-## Table of Contents
+---
+
+## 📚 Table of Contents
+- [About](#about)
 - [Features](#features)
-- [Demo](#demo)
-- [Technologies](#technologies)
+- [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Screenshots](#screenshots)
 - [Contributing](#contributing)
 - [License](#license)
+- [Contact](#contact)
 
-## Features
-- User-friendly interface to create a CV
-- Save and download CVs in PDF format
-- Preview CV before downloading
-- Responsive design
+---
 
-## Demo
-Add screenshots or GIFs here.  
-Example:
+## 🧩 About
 
-![Home Page](screenshots/home.png)  
-![CV Preview](screenshots/preview.png)
+**CV Generator** is a simple and user-friendly web application designed to help users create professional CVs instantly.  
+Users can fill out their personal details, education, and experience — and with one click, generate a downloadable **PDF version** of their CV.
 
-## Technologies
-- Python 3.x
-- Django 4.x
-- HTML5, CSS3
-- Bootstrap (optional)
-- SQLite/PostgreSQL (database)
+---
 
-## Installation
-1. Clone the repository:
+## 🚀 Features
+
+- 📝 Fill out personal information through a web form  
+- ⚡ Instantly generate a CV in PDF format  
+- 💻 Responsive design using Bootstrap  
+- 🧱 Built with Django and pdfkit  
+- 🎯 Easy to use and customizable  
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer | Technologies |
+|--------|----------------|
+| **Frontend** | HTML, CSS, Bootstrap |
+| **Backend** | Django (Python) |
+| **PDF Engine** | pdfkit (wkhtmltopdf) |
+| **Database** | SQLite (default) |
+
+---
+
+## ⚙️ Installation
+
+### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/UddinNahim/CV-generator.git
-cd cv-generator
+git clone https://github.com/yourusername/CV-generator.git
+cd CV-generator
 
-Create a virtual environment:
-
+### 2️⃣ Create and activate a virtual environment
 python -m venv venv
-source venv/bin/activate    # On Windows: venv\Scripts\activate
+venv\Scripts\activate   # Windows
+source venv/bin/activate  # macOS/Linux
 
-
-Install dependencies:
-
+3️⃣ Install dependencies
 pip install -r requirements.txt
+4️⃣ Install wkhtmltopdf
 
+You must install wkhtmltopdf to use pdfkit.
+Follow installation instructions from:
+👉 https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
 
-Apply migrations:
-
-python manage.py migrate
-
-
-Run the server:
-
+5️⃣ Run the Django server
 python manage.py runserver
 
 
-Open your browser and go to:
+Open your browser and visit:
+🔗 http://127.0.0.1:8000/
 
-http://127.0.0.1:8000/
+💻 Usage
 
-Usage
+Open the CV Generator web app.
 
-Fill in your personal, education, and experience details.
+Fill in your Name, Email, Phone, Education, Experience, and Skills.
 
-Preview your CV.
+Click Generate CV.
 
-Download the CV as a PDF.
+Your CV will automatically download as a PDF file.
 
-Contributing
+📸 Screenshots
+
+Add screenshots of your app here:
+
+![Homepage](screenshots/homepage.png)
+![Generated CV](screenshots/generated_cv.png)
+
+🤝 Contributing
 
 Contributions are welcome!
+To contribute:
 
-Fork the repository
+1. Fork the repository
+2. Create a new branch (git checkout -b feature-name)
+3. Make your changes and commit (git commit -m 'Add feature')
+4. Push to your branch (git push origin feature-name)
+5. Open a Pull Request
 
-Create a new branch (git checkout -b feature/your-feature)
+📜 License
 
-Make changes and commit (git commit -m 'Add feature')
+This project is licensed under the MIT License — feel free to use and modify it.
 
-Push to the branch (git push origin feature/your-feature)
+📞 Contact
 
-Create a Pull Request
-
-License
-
-This project is licensed under the MIT License. See the LICENSE
- file for details.
-
-
----
-
-### **3. Save the file**
-- Save the file as `README.md`.  
-- Make sure it is **in the root folder** of your project (same level as `manage.py`).  
-
----
-
-### **4. Add and commit to Git**
-After creating your README.md:
-
-```bash
-git add README.md
-git commit -m "Add README file"
-git push origin main
+Author: Nahim Uddin
+GitHub: https://github.com/UddinNahim
+LinkedIn: https://www.linkedin.com/in/nahimuddin/ 
+Email: nahim.211902019@gmail.com

@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render , redirect
 from .models import Profile
 import pdfkit
 from django.http import HttpResponse
@@ -14,12 +14,14 @@ def accept(request):
         summary = request.POST.get("summary","")
         degree = request.POST.get("degree","")
         school = request.POST.get("school","")
-        University = request.POST.get("University","")
+        university = request.POST.get("university","")
         previous_work = request.POST.get("previous_work","")
         skills = request.POST.get("skills","")
 
-        profile = Profile(name=name,email=email,phone=phone,summary=summary,degree=degree,school=school,university=University,previous_work=previous_work,skills=skills)
+        profile = Profile(name=name,email=email,phone=phone,summary=summary,degree=degree,school=school,university=university,previous_work=previous_work,skills=skills)
         profile.save()
+
+        return redirect('resume',id=profile.id)
 
     return render(request,'pdf/accept.html')
 
@@ -41,6 +43,6 @@ def resume(request,id):
 
 def list(request):
     profiles  = Profile.objects.all()
-    return render(request,'pdf/list.html',{'profiles':profiles})
+    return render(request,'pdf/list.html',{'profile':profiles})
 
 
