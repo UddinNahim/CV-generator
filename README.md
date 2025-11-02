@@ -52,28 +52,27 @@ Users can fill out their personal details, education, and experience — and wit
 git clone (https://github.com/UddinNahim/CV-generator.git)
 cd CV-generator
 
-2️⃣ Create and activate a virtual environment
+###  2️⃣ Create and activate a virtual environment
 ```bash
 python -m venv venv
 venv\Scripts\activate   # Windows
 source venv/bin/activate  # macOS/Linux
 
-3️⃣ Install dependencies
+###  3️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
-4️⃣ Install wkhtmltopdf
+###  4️⃣ Install wkhtmltopdf
 
 You must install wkhtmltopdf to use pdfkit.
 Follow installation instructions from:
 👉 https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
 
-5️⃣ Run the Django server
+### 5️⃣ Run the Django server
 ```bash
 python manage.py runserver
 
-
+```
 Open your browser and visit:
-```bash
 🔗 http://127.0.0.1:8000/
 
 ## 💻 Usage
