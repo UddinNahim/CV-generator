@@ -68,7 +68,7 @@ Follow installation instructions from:
 👉 https://github.com/JazzCore/python-pdfkit/wiki/Installing-wkhtmltopdf
 
 5️⃣ Run the Django server
-```bash
+
 python manage.py runserver
 
 
@@ -90,8 +90,8 @@ Your CV will automatically download as a PDF file.
 
 Add screenshots of your app here:
 
-![Homepage](image/CV_input_Form.png)
-![Generated CV](image/generates cv.png)
+![Homepage](mysite/image/CV_input_Form.png)
+![Generated CV](mysite/image/generates%20cv.png)
 
 ## 🤝 Contributing
 
