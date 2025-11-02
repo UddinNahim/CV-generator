@@ -39,3 +39,8 @@ def resume(request,id):
 
     return response
 
+def list(request):
+    profiles  = Profile.objects.all()
+    return render(request,'pdf/list.html',{'profiles':profiles})
+
+
