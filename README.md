@@ -49,7 +49,7 @@ Users can fill out their personal details, education, and experience — and wit
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/yourusername/CV-generator.git
+git clone (https://github.com/UddinNahim/CV-generator.git)
 cd CV-generator
 
 ### 2️⃣ Create and activate a virtual environment
