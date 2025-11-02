@@ -76,7 +76,7 @@ Open your browser and visit:
 ```bash
 🔗 http://127.0.0.1:8000/
 
-💻 Usage
+## 💻 Usage
 
 Open the CV Generator web app.
 
@@ -86,14 +86,14 @@ Click Generate CV.
 
 Your CV will automatically download as a PDF file.
 
-📸 Screenshots
+## 📸 Screenshots
 
 Add screenshots of your app here:
 
 ![Homepage](image/CV_input_Form.png)
 ![Generated CV](image/generates cv.png)
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome!
 To contribute:
@@ -104,11 +104,11 @@ To contribute:
 4. Push to your branch (git push origin feature-name)
 5. Open a Pull Request
 
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License — feel free to use and modify it.
 
-📞 Contact
+## 📞 Contact
 
 Author: Nahim Uddin
 GitHub: https://github.com/UddinNahim
