@@ -96,6 +96,7 @@ Add screenshots of your app here:
 
 ![Homepage](mysite/image/CV_input_Form.png)
 ![Generated CV](mysite/image/generates%20cv.png)
+![Profile LIst](mysite/image/profileList.png)
 
 ## 🤝 Contributing
 
